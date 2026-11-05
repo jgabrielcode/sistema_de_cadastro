@@ -16,8 +16,8 @@
     <div class="brand">
       <span class="brand-mark">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="#3a2a00" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
-  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
-</svg>
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
+        </svg>
       </span>
       Cadastro
     </div>
@@ -77,15 +77,15 @@
 
       <div class="divider">ou use seu e-mail</div>
 
-      <form onsubmit="return false">
+      <form>
         <div class="row">
           <div class="field">
             <label for="nome">Nome</label>
-            <div class="input"><input id="nome" type="text" placeholder="Maria" required></div>
+            <div class="input"><input id="nome" type="text" placeholder="Beatryz" required></div>
           </div>
           <div class="field">
             <label for="sobrenome">Sobrenome</label>
-            <div class="input"><input id="sobrenome" type="text" placeholder="Silva" required></div>
+            <div class="input"><input id="sobrenome" type="text" placeholder="Leite" required></div>
           </div>
         </div>
 
@@ -108,8 +108,14 @@
             </button>
           </div>
           <div class="strength">
-            <!--entender conforme a senha tenha umnivel de forca ele aumente a barra de forca-->
-            <div class="bars"><span class="on"></span><span class="on"></span><span class="off"></span><span class="off"></span></div>
+            <!--entender conforme a senha tenha um nivel de forca ele aumente a barra de forca-->
+            <div class="bars">
+              <!--Jogar os elementos num array e tratar pelo indice mudar a calss pelo indice-->
+              <span class="off"></span>
+              <span class="off"></span>
+              <span class="off"></span>
+              <span class="off"></span>
+            </div>
             <small>Use letras, números e símbolos para uma senha mais forte.</small>
           </div>
         </div>
@@ -135,5 +141,6 @@
   </main>
 
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>
