@@ -220,6 +220,11 @@
     outline-offset: 2px;
   }
 
+  /*campo de msg de validacao de senha*/
+  #msg-error{
+    padding-top: 3px;
+  }
+
   /* ---------- Responsivo ---------- */
   @media (max-width: 900px) {
     .page { grid-template-columns: 1fr; }
