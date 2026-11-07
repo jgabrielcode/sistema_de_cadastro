@@ -177,7 +177,7 @@
   .strength { display: grid; gap: 6px; }
   .bars { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
   .bars span { height: 4px; border-radius: 4px; background: var(--line); }
-  .bars span.on { background: var(--accent); }
+  .bars span.on { background: #5be81e; }
   .bars span.off { background: var(--line); }
 
   .strength small { color: var(--muted); font-size: 13px; }
