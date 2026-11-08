@@ -42,38 +42,11 @@ const validarSenhas = (senha,confSenha) => {
         if(temLower){points++}
 
         //fazer um loop para diminuir a qauntidade de linhaas do list 
-
-       if(points == 1){
-        list[0].classList.add("on")
-        list[0].classList.remove("off")
-
+    for(let i = 0; i < points; i++){
+        
+        list[i].classList.add("on")
+        list[i].classList.remove("off")
     }
-       if(points == 2){
-        list[0].classList.add("on")
-        list[0].classList.remove("off")
-        list[1].classList.add("on")
-        list[1].classList.remove("off")
-       }
-       if(points == 3){
-        list[0].classList.add("on")
-        list[0].classList.remove("off")
-        list[1].classList.add("on")
-        list[1].classList.remove("off")
-        list[2].classList.add("on")
-        list[2].classList.remove("off")
-
-       }
-       if(points == 4){
-        list[0].classList.add("on")
-        list[0].classList.remove("off")
-        list[1].classList.add("on")
-        list[1].classList.remove("off")
-        list[2].classList.add("on")
-        list[2].classList.remove("off")
-        list[3].classList.add("on")
-        list[3].classList.remove("off")
-
-       }
 
        
 
